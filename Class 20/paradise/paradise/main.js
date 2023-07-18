@@ -2,18 +2,6 @@
 
 // let numArray = [20, 10, 20];
 
-// function isMyArrayBig() {
-//   if (numArray[0] < numArray[2]) {
-//     alert("Hi");
-//   } else if (numArray[0] > numArray[2]) {
-//     alert("Bye");
-//   } else {
-//     alert("We close in an hour");
-//   }
-// }
-
-// isMyArrayBig();
-
 function checkFirstAndLast(arr) {
   if (arr[0] < arr[arr.length - 1]) {
     alert("Hi");
