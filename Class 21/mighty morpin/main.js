@@ -50,5 +50,3 @@ function takeInNum(n) {
   }
 }
 takeInNum(10);
-
-let days = 31;
