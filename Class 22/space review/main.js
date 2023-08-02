@@ -25,9 +25,9 @@ console.log(newArray);
 
 let str = "went to the store yesterday";
 
-function myString(str) {
+myString = (str) => {
   return str.split("").reverse().join("");
-}
+};
 
 console.log(myString(str));
 
