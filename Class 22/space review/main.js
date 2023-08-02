@@ -11,14 +11,7 @@ console.log(sum);
 //Create a function that takes in an array of numbers
 //Return a new array of numbers that is every original number squared
 
-let numbers = [2, 7, 13, 24];
-let newArray = [];
-
-for (let i = 0; i < numbers.length; i++) {
-  newArray.push(Math.pow(numbers[i], 2));
-}
-
-console.log(newArray);
+let newArray = (nums) => nums.map((num) => num ** 2);
 
 //Create a function that takes string
 //Print the reverse of that string to the console
