@@ -11,7 +11,7 @@
 //Take the value from the input
 //Place the result of the conditional in the paragraph
 
-document.querySelector("h1").addEventListener("click", ageCheck);
+document.querySelector("button").addEventListener("click", ageCheck);
 
 let p = document.querySelector("p");
 
